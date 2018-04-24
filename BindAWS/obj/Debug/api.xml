@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="com.reflectionsinfos.nativelibrary">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="com.reflectionsinfos.nativelibrary.BuildConfig" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="APPLICATION_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.reflectionsinfos.nativelibrary&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="BUILD_TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEBUG" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FLAVOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="VERSION_CODE" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="VERSION_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;1.0&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Constants" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="Constants" static="false" type="com.reflectionsinfos.nativelibrary.Constants" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="BUCKET_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;businessdebatedevbucketone&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="BUCKET_REGION" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;us-east-1&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="BUCKET_UPLOADED_PATH" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;https://s3.amazonaws.com/businessdebatedevbucketone/&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="COGNITO_POOL_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;us-east-1:705270dc-eeed-46f7-b6cd-d868e0dd858a&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="COGNITO_POOL_REGION" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;us-east-1&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.app.Application" extends-generic-aware="android.app.Application" final="false" name="LibApp" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="LibApp" static="false" type="com.reflectionsinfos.nativelibrary.LibApp" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getContext" native="false" return="android.content.Context" static="true" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="LibraryClass" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="LibraryClass" static="false" type="com.reflectionsinfos.nativelibrary.LibraryClass" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="openCamera" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="openGallery" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="openView" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="returnMessage" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.app.Activity" extends-generic-aware="android.app.Activity" final="false" name="ShowMessage" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="ShowMessage" static="false" type="com.reflectionsinfos.nativelibrary.ShowMessage" visibility="public">
+</constructor>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="UploadActivity.1" static="false" visibility="">
+<implements name="android.widget.SimpleAdapter.ViewBinder" name-generic-aware="android.widget.SimpleAdapter.ViewBinder">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="setViewValue" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="java.lang.Object">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="UploadActivity.10" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="UploadActivity.2" static="false" visibility="">
+<implements name="android.widget.AdapterView.OnItemClickListener" name-generic-aware="android.widget.AdapterView.OnItemClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onItemClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.AdapterView&lt;?&gt;">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="long">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="UploadActivity.3" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="UploadActivity.4" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="UploadActivity.5" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="UploadActivity.7" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="UploadActivity.8" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="UploadActivity.9" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+</package>
+</api>

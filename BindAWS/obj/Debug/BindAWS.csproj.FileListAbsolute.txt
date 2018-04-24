@@ -1,0 +1,5 @@
+D:\Nithin\Projects\Learn\IntComponent\BindAWS\bin\Debug\BindAWS.dll
+D:\Nithin\Projects\Learn\IntComponent\BindAWS\bin\Debug\BindAWS.pdb
+D:\Nithin\Projects\Learn\IntComponent\BindAWS\obj\Debug\BindAWS.csprojResolveAssemblyReference.cache
+D:\Nithin\Projects\Learn\IntComponent\BindAWS\obj\Debug\BindAWS.dll
+D:\Nithin\Projects\Learn\IntComponent\BindAWS\obj\Debug\BindAWS.pdb

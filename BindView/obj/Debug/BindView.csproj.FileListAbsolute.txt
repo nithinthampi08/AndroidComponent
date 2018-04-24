@@ -1,0 +1,5 @@
+D:\Nithin\Projects\Learn\IntComponent\BindView\bin\Debug\BindView.dll
+D:\Nithin\Projects\Learn\IntComponent\BindView\bin\Debug\BindView.pdb
+D:\Nithin\Projects\Learn\IntComponent\BindView\obj\Debug\BindView.csprojResolveAssemblyReference.cache
+D:\Nithin\Projects\Learn\IntComponent\BindView\obj\Debug\BindView.dll
+D:\Nithin\Projects\Learn\IntComponent\BindView\obj\Debug\BindView.pdb

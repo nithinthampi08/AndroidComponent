@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="com.reflectionsinfos.xamarinnativetest">
+<class abstract="false" deprecated="not deprecated" extends="android.app.Activity" extends-generic-aware="android.app.Activity" final="false" name="ShowView" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="ShowView" static="false" type="com.reflectionsinfos.xamarinnativetest.ShowView" visibility="public">
+</constructor>
+</class>
+</package>
+</api>

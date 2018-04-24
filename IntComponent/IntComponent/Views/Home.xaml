@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IntComponent.Views.Home">
+  <StackLayout>
+    <Label Text="Enter Text"
+        VerticalOptions="CenterAndExpand"
+        HorizontalOptions="CenterAndExpand" />
+    <Entry x:Name="txtEntry" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+    <Button Text="Check" x:Name="btnCheck" Clicked="BtnCheck_Clicked"/>
+  </StackLayout>
+</ContentPage>

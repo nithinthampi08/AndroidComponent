@@ -1,0 +1,2 @@
+com/reflectionsinfos/xamarinnativetest/ShowView = Com.Reflectionsinfos.Xamarinnativetest.ShowView
+  <init>()V = .ctor()

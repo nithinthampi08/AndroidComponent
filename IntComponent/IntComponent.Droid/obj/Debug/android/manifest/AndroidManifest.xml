@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.reflectionsinfos.nativelibrary" android:versionCode="1" android:versionName="1.0">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="15" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <application android:label="IntComponent.Droid" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:name=".ShowMessage" android:theme="@style/Base.Theme.AppCompat.Light" />
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="IntComponent" android:theme="@style/MainTheme" android:name="md5d8e7aef80de3ef67657d53a27fba6964.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.reflectionsinfos.nativelibrary.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.reflectionsinfos.nativelibrary" />
+      </intent-filter>
+    </receiver>
+    <activity android:name="com.reflectionsinfos.nativelibrary.UploadActivity" />
+  </application>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+</manifest>
